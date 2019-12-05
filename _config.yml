@@ -1,7 +1,7 @@
 title: d2falt
 description: d2falt팀의 기술 블로그 입니다!
 
-url: https://d2falt.github.io
+url: https://shhan730.github.io
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
