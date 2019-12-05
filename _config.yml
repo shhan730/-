@@ -24,7 +24,7 @@ navigation:
     url: /tags/git   
 
 social:
-  github: shhan
+  github: shhan730
 
 plugins:
   - jekyll-sitemap
