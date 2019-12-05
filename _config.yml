@@ -1,0 +1,53 @@
+title: d2falt
+description: d2falt팀의 기술 블로그 입니다!
+
+url: https://d2falt.github.io
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+  - title: Home
+    url: /index.html
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Kotlin
+    url: /tags/kotlin
+  - title: Swift
+    url: /tags/swift
+  - title: Git
+    url: /tags/git   
+
+social:
+  github: d2falt
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+google_analytics: UA-144771424-2
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
+  authors:
+    output: true
+    permalink: /authors/:path/
+defaults:
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+  - scope:
+      path: ''
+      type: authors
+    values:
+      layout: author

@@ -1,0 +1,31 @@
+{
+  "name": "d2falt",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "d2falt",
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d2falt/d2falt.github.io.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "lodash.template": ">=4.5.0",
+    "js-yaml": ">=3.13.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^4.0.2"
+  }
+}
