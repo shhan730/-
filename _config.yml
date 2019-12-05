@@ -1,5 +1,5 @@
-title: d2falt
-description: d2falt팀의 기술 블로그 입니다!
+title: TechBlog
+description: SeungHunHan
 
 url: https://shhan730.github.io
 baseurl: ""
@@ -26,7 +26,7 @@ navigation:
     url: /tags/git   
 
 social:
-  github: d2falt
+  github: shhan
 
 plugins:
   - jekyll-sitemap
