@@ -1,4 +1,4 @@
-title: TechBlog_SeungHun.Han
+title: TechBlog_sh.Han
 description: shhan's tech blog
 
 url: https://shhan730.github.io
@@ -18,8 +18,6 @@ navigation:
     url: /about
   - title: Contact
     url: /contact
-  - title: Kotlin
-    url: /tags/kotlin
   - title: Swift
     url: /tags/swift
   - title: Git
